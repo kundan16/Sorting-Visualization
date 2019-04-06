@@ -23,7 +23,7 @@ Sorting::Sorting( int n)
 	arrsize = n;
 	for(int i = 0; i< n; i++)
     {
-        arr[i] = rand()%200;
+        arr[i] = rand()%200+15;
     }
 }
 int Sorting::getarrsize()
@@ -40,7 +40,7 @@ int main()
     int gd=DETECT,gm;
 
     initgraph(&gd, &gm, "C:\\TC\\BGI");
-    int arraysize = 500;
+    int arraysize = 200;
 
    // Bubble sort
 
